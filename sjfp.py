@@ -1,6 +1,7 @@
 import numpy as np
 from utils import create_processes, process
 
+#Función que realiza el algoritmo SRF de forma preemptive
 def srtf(processes):
     #Helper functions
     def process_creation(processes):

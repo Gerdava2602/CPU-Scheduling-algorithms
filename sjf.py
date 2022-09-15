@@ -1,6 +1,7 @@
 import numpy as np
 from utils import create_processes
 
+# Función que realiza el algoritmo SJF
 def sjf(processes):
     def order_inside(processes, time):
         new_processes = []

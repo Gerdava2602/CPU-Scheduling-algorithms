@@ -1,5 +1,6 @@
 import numpy as np
 
+#Funciones necesarias para la realización óptima de los algoritmos
 def create_processes(n, max=10):
     return np.random.randint(0, max, size=(n,2))
 
